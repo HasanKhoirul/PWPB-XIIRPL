@@ -1,0 +1,60 @@
+/* membuat Text Styling Colour */
+/* class Selector */
+.p1{
+    color: green;
+}
+
+.p2{
+    color: orange;
+}
+
+.p3{
+    color: yellow;
+}
+
+/* membuat Text Align */
+
+.a{
+    text-align: center;
+}
+
+.b{
+    text-align: left;
+}
+
+.c{
+    text-align: right;
+}
+
+.d{
+    text-align: justify;
+}
+
+/* Membuat Indent Text */
+
+.indent-text{
+    text-indent: 50px;
+}
+
+/* Membuat Text Styling Decoration, Transform, Letter and Word Spacing*/
+
+.decor h2{
+    text-decoration: overline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.decor h3{
+    text-decoration: line-through;
+    text-transform: lowercase;
+    word-spacing: 30px;
+}
+
+.decor h4{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+.decor h5{
+    text-decoration: underline line-through overline;
+}

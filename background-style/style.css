@@ -1,0 +1,22 @@
+/* wallpaper */
+body{
+    background-color: coral;
+}
+
+.back-img{
+    background-image: url("wallpaper_hero.jpg");
+    width: 1450px;
+    height: 250px;
+    color: red;
+}
+
+/* Background Posisi */
+.posisi{
+    background-image: url("wallpaper_hero.jpg");
+    width: 550px;
+    height: 250px;
+    color: aquamarine;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
