@@ -1,0 +1,42 @@
+body{
+    background-color: lightgray;
+}
+
+.wrapper{
+    background-color: white;
+    width: 1200px;
+    height: 100%;
+}
+
+.box-1{
+    width: 250px;
+    height: 250px;
+    background-color: lime;
+    /* Untuk penulisan Value ada 2 : 1. Y X
+    2. atas kanan bawah kiri*/
+    margin: 30px auto;
+}
+
+.box-2{
+    width: 200px;
+    height: 250px;
+    background-color: plum;
+    /* Untuk penulisan Value ada 2 : 1. Y X
+    2. atas kanan bawah kiri*/
+    /* Hanya margin yang boleh menggunakan Minus */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.box-3{
+    width: 250px;
+    height: 250px;
+    background-color: royalblue;
+    /* Untuk penulisan Value ada 2 : 1. Y X
+    2. atas kanan bawah kiri*/
+    margin: 30px auto;
+    border-top: 8px solid black;
+    border-right: 8px dashed brown;
+    border-bottom: 8px dotted peru;
+    border-left: 8px double blueviolet;
+}
